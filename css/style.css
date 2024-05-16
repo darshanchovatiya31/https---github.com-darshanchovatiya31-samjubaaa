@@ -1,0 +1,622 @@
+/* inter-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/inter-v13-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v13-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/inter-v13-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* koh-santepheap-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Koh Santepheap';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/koh-santepheap-v11-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* koh-santepheap-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Koh Santepheap';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/koh-santepheap-v11-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* koh-santepheap-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Koh Santepheap';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/koh-santepheap-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* koh-santepheap-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Koh Santepheap';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/koh-santepheap-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* koh-santepheap-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Koh Santepheap';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/koh-santepheap-v11-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#south,#designer,#ready,#plain,#lahenga,#mens,#nehru{
+    position: relative;
+}
+#south .owl-nav.disabled ,#designer .owl-nav.disabled ,#ready .owl-nav.disabled ,#plain .owl-nav.disabled ,#lahenga .owl-nav.disabled ,#mens .owl-nav.disabled ,#nehru .owl-nav.disabled{
+    display: block !important;
+}
+#south .owl-nav button.owl-prev,#designer .owl-nav button.owl-prev ,#ready .owl-nav button.owl-prev ,#plain .owl-nav button.owl-prev ,#lahenga .owl-nav button.owl-prev ,#mens .owl-nav button.owl-prev ,#nehru .owl-nav button.owl-prev{
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#south .owl-nav button.owl-prev span,#designer .owl-nav button.owl-prev span ,#ready .owl-nav button.owl-prev span ,#plain .owl-nav button.owl-prev span ,#lahenga .owl-nav button.owl-prev span ,#mens .owl-nav button.owl-prev span ,#nehru .owl-nav button.owl-prev span{
+    color: black;
+    padding: 0 12px;
+    font-size: 30px;
+}
+#south .owl-nav button.owl-next,#designer .owl-nav button.owl-next ,#ready .owl-nav button.owl-next ,#plain .owl-nav button.owl-next ,#lahenga .owl-nav button.owl-next ,#mens .owl-nav button.owl-next ,#nehru .owl-nav button.owl-next{
+    position: absolute;
+    top: 35%;
+    right: 0%;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#south .owl-nav button.owl-next span,#designer .owl-nav button.owl-next span ,#ready .owl-nav button.owl-next span ,#plain .owl-nav button.owl-next span ,#lahenga .owl-nav button.owl-next span ,#mens .owl-nav button.owl-next span ,#nehru .owl-nav button.owl-next span{
+    color: black;
+    padding: 0 12px;
+    font-size: 30px;
+}
+#nehru .owl-nav button.owl-next span ,#nehru .owl-nav button.owl-prev span{
+    color: white !important;
+}
+
+#nehru .owl-nav button.owl-next ,#nehru .owl-nav button.owl-prev{
+    background-color: black !important;
+}
+
+/* scroll top btn */
+.scroll_button{
+    background-color: #07A9AC;
+    transition: 0.5s all linear;
+    border-radius: 10px;
+    border: 2px solid #07A9AC;
+    position: fixed;
+    bottom: 8%;
+    right: 3%;
+    z-index: 999;
+    display: none;
+    color: white;
+}
+.scroll_button:hover{
+    background-color: white;
+    color: #07A9AC;
+    cursor: pointer;
+}
+.scroll_button i{
+    font-size: 20px;
+    padding: 12px 15px;
+}
+
+/* start header */
+.bg_color_nav{
+    background-color: #64C9CB !important;
+}
+.bg_color_nav a{
+    color: white !important;
+}
+.head li a{
+    color: #64C9CB;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 17px;
+}
+.head li{
+    border-radius: 10px;
+    transition: .5s all linear;
+}
+.head li:hover{
+    background-color: #64C9CB;
+}
+.head li:hover a{
+    color: white;
+}
+/* end header */
+/* hero start */
+.hero_item1{
+    background-image: url("../img/hero_item1.png");
+}
+.hero_item2{
+    background-image: url("../img/hero_item2.png");
+}
+.hero_item3{
+    background-image: url("../img/hero_item3.png");
+}
+.hero_item4{
+    background-image: url("../img/hero_item4.png");
+}
+.hero_inner{
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 610px;
+    font-family: 'Koh Santepheap';
+}
+.hero_inner h2{
+    font-size: 40px;
+    color: black;
+}
+.hero_inner h1{
+    font-size: 45px;
+    text-decoration: underline 2px ;
+    font-weight: 600;
+    color: #1A0669;
+}
+.hero_inner p{
+    font-size: 20px;
+    font-family: 'Inter';
+    text-transform: capitalize;
+    color: black;
+}
+.hero_inner div{
+    width: 530px;
+}
+.hero_inner div h2{
+    color: #B50F00;
+}
+/* hero end */
+/* product start */
+.product{
+    font-family: 'Inter';
+}
+.product .item{
+    padding: 20px;
+}
+/* product end */
+/* product_data start */
+.product_data1{
+    background-image: url(../img/product_data1.png);
+}
+.product_data2{
+    background-image: url(../img/product_data2.png);
+}
+.product_data3{
+    background-image: url(../img/product_data3.png);
+}
+.product_data4{
+    background-image: url(../img/product_data4.png);
+}
+.product_data5{
+    background-image: url(../img/product_data5.png);
+}
+.product_data_inner{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 10px;
+    font-family: 'Koh Santepheap';
+}
+.product_data_inner .product_text{
+    width: 180px;
+    font-size: 22px;
+}
+.product_data_inner .product_text_main{
+    background-color: #00000061;
+    padding: 30px 10px;
+    text-align: center;
+    margin-bottom:40px;
+    font-size: 22px;
+}
+.product_data3{
+    height: 510px !important;
+}
+/* product_data end */
+/* south start */
+.south_right{
+    width: 230px;
+    font-family: 'Koh Santepheap';
+}
+.south_right img{
+    width: 100%;
+    height: 100%;
+}
+.south_right h5{
+    background-color: #00000061;
+    width: 100%;
+}
+.south_left{
+    width: 75%;
+    font-family: 'Inter';
+}
+.south_inner{
+    height: 303px;
+}
+.south_inner img{
+    width: 100%;
+}
+.south_inner p{
+    font-size: 13px;
+    line-height: 15px;
+}
+/* south end */
+
+/* designer start */
+.designer{
+    flex-flow: row-reverse;
+}
+/* designer end */
+/* welcome start */
+.welcome{
+    background-image: url("../img/welcome.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+}
+.welcome_inner{
+    width: 450px;
+    font-family: 'Koh Santepheap';
+}
+.welcome_inner h4{
+    color: #020072;
+    font-weight: 600;
+}
+.welcome_inner p{
+    font-size: 18px;
+}
+/* welcome end */
+/* kurta start */
+.kurta img{
+    width: 100%;
+}
+/* kurta end */
+/* footer start */
+footer{
+    border-top: 1px solid #07A9AC;
+    border-bottom: 1px solid #07A9AC;
+}
+.footer h4, .footer h5 ,.footer .foot_right i{
+    color: #07A9AC;
+}
+.foot_add{
+    width: 280px;
+    transition: .5s all linear;
+}
+.foot_add:hover{
+    color: #07A9AC;
+}
+.footer_img{
+    width: 250px;
+}
+.footer_img img{
+    width: 100%;
+}
+/* footer end */
+
+
+/* about start */
+.about_one{
+    background-image: url("../img/about_main.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_one_text{
+    width: 260px;
+    text-align: center;
+}
+.about_one_text h2{
+    font-size: 40px;
+    font-family: 'Koh Santepheap';
+}
+.about_two_text h5{
+    width: 75%;
+}
+.about_three img{
+    width: 100%;
+}
+.about_four_card{
+    height: 330px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+/* about end */
+
+/* blogs start */
+.blogs{
+    background-image: url("../img/blogs.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.blogs h2{
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 45px;
+}
+/* blogs end */
+/* seller start */
+.seller{
+    background-image: url("../img/sellar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.seller h2{
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 45px;
+}
+.seller_card{
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+/* seller end */
+/* contact start */
+.contact{
+    background-image: url("../img/contact.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.contact h2{
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 45px;
+}
+.contact p{
+    color: rgba(255, 255, 255, 0.685) !important;
+    margin-top: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.contact_inner{
+    background-color: #E4E4E4;
+}
+.contact_number {
+    padding-left: 60px !important;
+}
+.fleg{
+    top: 65px;
+    left: 20px;
+}
+/* contact end */
+
+
+
+@media(max-width:1399px){
+    .scroll_button{
+        bottom: 6%;
+    }
+    .hero_inner{
+        height: 470px;
+    }
+    .product h5{
+        font-size: 16px;
+    }
+    .south_inner{
+        height: 265px;
+    }
+    .welcome{
+        background-position: left;
+    }
+    .about_two_text p{
+        font-size: 16px !important;
+    }
+}
+@media(max-width:1199px){
+    .scroll_button{
+        bottom: 5%;
+    }
+    .hero_inner{
+        height: 440px;
+    }
+    .product h5{
+        font-size: 14px;
+    }
+    .product_data_inner{
+        height: 200px;
+    }
+    .product_data3{
+        height: 410px !important;
+    }
+    .product_data_inner .product_text_main{
+        font-size: 20px;
+    }
+    .south_inner{
+        height: 275px;
+    }
+    .about_one{
+        height: 280px;
+    }
+    .about_two_text h5{
+        width: 100%;
+    }
+    .about_three p{
+        font-size: 16px !important;
+    }
+}
+@media(max-width:991px){
+    .hero_inner{
+        background-position: right;
+    }
+    .product_data_inner{
+        height: 150px;
+    }
+    .product_data3{
+        height: 310px !important;
+    }
+    .product_data_inner .product_text_main{
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+    .south_left{
+        width: 100%;
+    }
+    .welcome_inner p{
+        color: white !important;
+    }
+    .about_two_text h5{
+        width: 72%;
+    }
+}
+@media(max-width:767px){
+    .hero_inner h1{
+        font-size: 40px;
+    }
+    .hero_inner h2{
+        font-size: 35px;
+    }
+    .product .item{
+        padding: 0px;
+    }
+    .product_data_inner{
+        height: 300px;
+    }
+    .product_data3{
+        height: 410px !important;
+    }
+    .product_data_inner .product_text_main{
+        font-size: 22px;
+        padding: 30px 10px;
+    }
+    .about_one{
+        height: 380px;
+    }
+    .about_two_text h5{
+        width: 90%;
+    }
+}
+@media(max-width:567px){
+    .head_img{
+        width: 222px;
+    }
+    .hero_inner h1{
+        font-size: 27px;
+    }
+    .hero_inner h2{
+        font-size: 24px;
+    }
+    .hero_inner p{
+        font-size: 16px;
+    }
+    .hero_inner div{
+        width: 320px;
+    }
+    .product .item{
+        padding: 20px;
+    }
+    .product_data_inner{
+        width: 100%;
+        height: 250px;
+    }
+    .south_inner{
+        height: 100%;
+    }
+    .scroll_button{
+        bottom: 4%;
+    }
+    .fleg{
+        left: 10px;
+    }
+}
+@media(max-width:400px){
+    .product .item{
+        padding: 0px;
+    }
+    .product_data_inner{
+        height: 200px;
+    }
+    .about_two_text h5{
+        width: 100%;
+    }
+    .contact p{
+        font-size: 13px;
+    }
+}
